@@ -119,3 +119,8 @@ footer {
   background: white;
   border-bottom-left-radius: 10px;
 }
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
