@@ -16,6 +16,7 @@
     <body>
         <header>
             <div class="jumbotron">
+                <button class="dark-mode-toggle"  id="dark-mode-toggle" aria-label="toggle dark mode">DarkMode</button>
                 <h1 class="display-4">IT-3049C Chat</h1>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
@@ -23,6 +24,8 @@
                             <i class="fas fa-bomb"></i>
                         </span>
                         </div>
+                        <button class="button" onclick="SaveUsername()">Save Username</button>
+                        <button class="button" onclick="ChangeUsername()">Change Username</button>
                     <input id="my-name-input" type="text" class="form-control" placeholder="Name" value="Sam Untener">
               </div>
              </div> 
@@ -220,5 +223,6 @@
         </footer>
         <!-- Our own Scripts -->
         <script src="resources/js/index.js"></script>
+        <script src="darkmode.js"></script>
     </body>
 </html>
